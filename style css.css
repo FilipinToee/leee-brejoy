@@ -1,4 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+</style>
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: ;
+    text-decoration: none;
+}
+
 body{
-    background:linear-gradient(rgb(106, 247, 106), white)
-    
+    background: linear-gradient(to top, #ec9ac9, #c2519c, #b84fa1, #a82899, #971b9b, #650767, #5e065d, #560554, #470639, #340a24, #200813, #000000);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    align-items: center;
+    flex-wrap: wrap;
+    background: black;
+}
+
+.box{
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    background-color: #5e1341;
+    border-radius: 5%;
+}
+
+.botao_1{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    color: white;
+    background-color: (tomato);
+}
+
+.botao_whatsapp{
+    position: sticky;
+    bottom: 5px;
+    left: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    padding: 3%;
+    color: wheat;
+    font-size: 80px;
+    font-family: 'Josefin Sans', sans-serif;;
+}
+
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 200%;
+    color: wheat;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* CSS Flex Box */
+
+.flex {
+    background-color: #340a2488;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0% auto;
+}
+
+.flex > div {
+    flex: 1 1 200px;
+    display: flex;
+    margin: 10px;
 }
